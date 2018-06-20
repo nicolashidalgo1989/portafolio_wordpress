@@ -3,12 +3,10 @@
 <section class="home">
     <div class="container aligner">
         <div class="row">
-            <div class="col-lg-12">
-                <figure class="logo">
-                    <svg>
-                        <path d="M0 70 L 70 70, 70 30, 100 90, 100 50, 200 50" class="path round"> </path>
-                    </svg> 
-                </figure> 
+            <div class="col-lg-12"> 
+                <svg class="logo" width="200" height="100" viewBox="0 0 200 100">
+                    <path d="M0 70 L 70 70, 70 30, 100 90, 100 50, 200 50" class="path round"> </path>
+                </svg>  
             </div>
             <div class="col-lg-12">
                 <h2>I´m a front-end developer designer &amp; illustrator</h2>    

@@ -1,9 +1,8 @@
         <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <p><strong>nh</strong>design</p>
-                        <p>nhdesign &copy; Todos los derechos reservados 2018</p>
+                    <div class="col-lg-12 text-center"> 
+                        <p>&copy; Todos los derechos reservados <?php echo date("Y"); ?> </p>
                     </div> 
                     <?php
                         wp_nav_menu(array('theme_location'=>'secondary'));

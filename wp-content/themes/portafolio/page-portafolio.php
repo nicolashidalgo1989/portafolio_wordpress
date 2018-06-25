@@ -38,7 +38,7 @@
 
     <pre >
         <?php
-        //var_dump($posts)
+            var_dump($posts)
         ?>
     </pre> 
     

@@ -16,13 +16,13 @@
  
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'nh_portafolio');
+define('DB_NAME', 'nhidalgo_nh_portafolio');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'nh_portafolio');
+define('DB_USER', 'nhidalgo_nh');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', '159753aaanh_portafolio');
+define('DB_PASSWORD', '159753aaanhportafolio');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
@@ -78,5 +78,4 @@ if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
-require_once(ABSPATH . 'wp-settings.php');
-
+require_once(ABSPATH . 'wp-settings.php'); 

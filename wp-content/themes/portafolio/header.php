@@ -10,10 +10,12 @@
     <header class="header" id="header">
         <div class="container">
             <div class="row">
-                <div class="col-1 text-left">   
-                    <svg class="logo" width="65" height="65" viewbox="0 0 65 65"> 
-                        <path class="path round"> </path>
-                    </svg>  
+                <div class="col-1 text-left">
+                    <a href="/">  
+                        <svg class="logo" width="100" height="65" viewbox="0 0 100 130"> 
+                            <path class="path round"> </path>
+                        </svg>  
+                    </a> 
                 </div> 
                 <div class="col-2 offset-4 text-center">
                     <div class="btn-menu"></div>

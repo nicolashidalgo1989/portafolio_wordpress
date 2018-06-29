@@ -13,7 +13,7 @@
 
             <div class="col-lg-3 col-sm-4">
 
-                <a href="<?php echo get_category_link($categoria->cat_ID) ?>">
+                <a href="<?php echo get_category_link($categoria->cat_ID) ?>" class="icon-green">
                     <i class="<?php echo $categoria->description ?>"></i>
                 </a>
                 <h3><a href="<?php echo get_category_link($categoria->cat_ID) ?>"> <?php echo $categoria->name ?> </a></h3>
@@ -24,10 +24,6 @@
 
         <?php } ?>
     </div>
-    
-    <pre>
-        <?php //var_dump($categorias) ?>
-    </pre> 
 
 </section>
 

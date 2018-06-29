@@ -11,17 +11,19 @@ pre {
 }
 
 .logo .path { 
-    stroke-width: 2px;
-    stroke: #88DD83;
+    stroke-width: 3px;
+    stroke: #fff;
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    d: path('M 0 0 l 50 0 l 0 -30 l 30 60 l 0 -30 l 50 0'); 
+    d: path('M -30 30 l 50 0 l 0 -30 l 30 60 l 0 -30 l 50 0'); 
 }
 
 /*animation stroke path*/
 .home .logo .path {
     stroke-dasharray: 320;
+    stroke: #88DD83;
+    stroke-width: 2px;
     /*total linear lenght*/
     stroke-dashoffset: 0;
     animation: dash 1.5s linear; 
@@ -138,7 +140,7 @@ p {
 }
 
 
-.btn-white {
+.btn-white, .wpcf7-submit {
     border-radius: 100px;
     border: 1px solid white;
     display: block;
@@ -154,7 +156,7 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
-.btn-white:hover {
+.btn-white:hover, .wpcf7-submit:hover  {
     color: #101010;
     background: white;
     text-decoration: none;
@@ -262,13 +264,17 @@ figcaption {
     font-size: 1em;
 }
 
-.input-form {
+.wpcf7-form-control-wrap {
     position: relative;
     width: 100%;
     margin-bottom: 56px;
 }
 
-.input-form label {
+.wpcf7-form-control-wrap br{
+    display:none;
+}
+
+.wpcf7-form-control-wrap label {
     position: absolute;
     top: 0;
     left: 8px;
@@ -278,12 +284,12 @@ figcaption {
     transition: all 0.3s ease-in-out;
 }
 
-.input-form label.active {
+.wpcf7-form-control-wrap label.active {
     top: -20px;
     font-size: 12px;
 }
 
-.input-form input {
+.wpcf7-form-control-wrap input {
     font-family: "Raleway", "Arial", sans-serif;
     width: 100%;
     background: transparent;
@@ -297,7 +303,7 @@ figcaption {
     border-bottom: 1px solid white;
 }
 
-.input-form textarea {
+.wpcf7-form-control-wrap textarea {
     background: rgba(0, 0, 0, 0);
     border: 1px solid white;
     width: 100%;
@@ -505,6 +511,10 @@ select:-webkit-autofill {
 .header .menu ul {
     padding: 0;
     list-style: none;
+}
+
+.header .menu ul li{
+
 }
 
 .header .menu ul a {
@@ -721,5 +731,8 @@ section.home    {
     display: block;
 }
 
+.icon-green svg{
+    color:#88DD83;
+}
 
 /*# sourceMappingURL=main.css.map */

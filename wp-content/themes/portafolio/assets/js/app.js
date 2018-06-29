@@ -132,7 +132,6 @@ let link = document.createElement('a');
  
 /* filters */
 
-
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
